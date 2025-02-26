@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <title>Mi portafolio</title>
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- header section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hola, soy</h3>
+        <h1>Roberto poemape</h1>
+        <h3>y soy <span class="multiple-text"></span></h3>
+        <p>
+          Un apasionado desarrollador enfocado en transformar ideas en
+          experiencias digitales innovadoras. Me especializo en crear interfaces
+          responsivas y atractivas, ya sea para Frontend, Web o Mobile. Utilizo
+          metodologías ágiles y herramientas modernas para asegurar soluciones
+          de alta calidad que marquen la diferencia.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/roberto-poemape-b27109191/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <a href="assets/pdfs/cv-roberto-poemape.pdf" class="btn" download>Descargar CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/img/roberto1.jpg" alt="roberto poemape picture" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <!-- Imagen de Perfil -->
+        <div class="about-img">
+          <img src="assets/img/roberto2.jpg" alt="Foto de Roberto Poemape" />
+        </div>
+
+        <!-- Contenido de Acerca de Mí -->
+        <div class="about-content">
+          <h2 class="heading">Acerca de <span>mí</span></h2>
+
+          <!-- Detalles adicionales -->
+          <div class="about-details">
+            <!-- Educación y Certificaciones -->
+            <div class="education">
+              <h4>Educación y Certificaciones</h4>
+              <ul>
+                <li>SENATI - Desarrollo de Software (Titulado Egresado)</li>
+                <li>
+                  <a href="assets/pdfs/especialistaenflutter.pdf" target="_blank" rel="noopener noreferrer">
+                    Tecylab - Especialista en Flutter (Certificado)
+                  </a>
+                </li>
+                
+
+                <li>
+                  <a
+                    href="https://certificados.codeable.la/certificates/2024-PC18200012"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Codeable - Introducción a Desarrollo Web (Certificado)
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+
+          <!-- Habilidades Técnicas Ocultas (se expanden al presionar "Leer más") -->
+          <div class="skills">
+            <ul class="skills-list">
+              <li>
+                <i class="fa-brands fa-flutter"></i>
+                <span>Flutter</span>
+                <span class="skill-level">Avanzado</span>
+              </li>
+              <li>
+                <i class="fas fa-code"></i>
+                <span>Desarrollo Web</span>
+                <span class="skill-level">Básico/Intermedio</span>
+              </li>
+              <li>
+                <i class="fas fa-fire"></i>
+                <span>Firebase</span>
+              </li>
+              <li>
+                <i class="fas fa-database"></i>
+                <span>MySQL / SQL Server</span>
+              </li>
+              <li>
+                <i class="fas fa-cogs"></i>
+                <span>MVVM / MVC</span>
+              </li>
+              <li>
+                <i class="fas fa-sync-alt"></i>
+                <span>Provider / Bloc / Riverpod</span>
+              </li>
+              <li>
+                <i class="fas fa-flask"></i>
+                <span>GetIt / Injectable</span>
+              </li>
+              <li>
+                <i class="fas fa-plug"></i>
+                <span>APIs RESTful</span>
+                <span class="skill-level">Avanzado</span>
+              </li>
+              <li>
+                <i class="fas fa-database"></i>
+                <span>Persistencia (SQLite, Hive, SharedPreferences)</span>
+                <span class="skill-level">Avanzado</span>
+              </li>
+              <li>
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>Either</span>
+              </li>
+              <li>
+                <i class="fab fa-git-alt"></i>
+                <span>Git / GitHub</span>
+              </li>
+              <li>
+                <i class="fas fa-comments"></i>
+                <span>Jira / Slack / Notion / Discord</span>
+              </li>
+              <li>
+                <i class="fas fa-pen-nib"></i>
+                <span>Figma / Adobe XD</span>
+              </li>
+              <li>
+                <i class="fas fa-wrench"></i>
+                <span>Clean Code & Refactoring</span>
+              </li>
+              <li>
+                <i class="fas fa-tools"></i>
+                <span>Mantenimiento</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Botón para expandir/contraer habilidades técnicas -->
+          <a href="#" class="btn" id="read-more-btn">Leer más</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+            natus delectus distinctio! Sapiente, dolorum voluptatum maiores
+            nulla est nisi quasi consectetur quae adipisci recusandae nemo ea
+            suscipit assumenda odit distinctio.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+          <h3>UI/UX designing</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+            natus delectus distinctio! Sapiente, dolorum voluptatum maiores
+            nulla est nisi quasi consectetur quae adipisci recusandae nemo ea
+            suscipit assumenda odit distinctio.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-android"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+            natus delectus distinctio! Sapiente, dolorum voluptatum maiores
+            nulla est nisi quasi consectetur quae adipisci recusandae nemo ea
+            suscipit assumenda odit distinctio.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portafolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/img/2-original.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full name" />
+          <input type="email" placeholder="Email address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile number" />
+          <input type="text" placeholder="Email subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        ></textarea>
+        <input type="submit" value="Send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by RobertoPoemape | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+    <!-- scroll reveal js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- main js  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
